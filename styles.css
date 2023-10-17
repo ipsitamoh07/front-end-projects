@@ -1,0 +1,260 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(29, 42, 53);
+}
+
+.horizontal-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.horizontal-navbar li {
+    float: left;
+}
+
+.horizontal-navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.main-section {
+    padding: 20px;
+    margin-top: 30px;
+    background-color: rgb(29, 42, 53);
+    height: 100vh;
+    margin-left: 15%;
+    width: 65%;
+    border-right: 1px solid #38444d;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.side-nav {
+    top: 47px;
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(21, 32, 43);
+    list-style: none;
+}
+
+.side-nav h2 {
+    margin: 10px 0px;
+    color: #cbc8c3;
+    padding: 8px 16px;
+    font-family: "Segoe UI", Arial, sans-serif;
+
+}
+
+.side-nav a {
+    display: block;
+    text-decoration: none;
+    color: #cbc8c3;
+    font-family: "Segoe UI", Arial, sans-serif;
+    padding: 2px 1px 1px 16px;
+    font-size: 15px;
+}
+
+.side-nav a:hover:not(.active) {
+    background-color: rgba(240, 240, 235, 0.308);
+}
+.head {
+    margin-top: 100px;
+    font-size: 25px;
+    color: #cbc8c3;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background: #4CAF50;
+    /* Green */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    color: white;
+}
+button:hover{
+    background-color:#1a3b1b;
+}
+#track-btn{
+    background:#38444d;
+    color:#cbc8c3;
+}
+#track-btn:hover{
+    background-color:#dddddd;
+    color: black;
+}
+
+hr {
+    border: 1px solid #38444d;
+}
+
+.text {
+    font-size: 16px;
+    color: #cbc8c3;
+    line-height: 1.7em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    max-width: 90%;
+    font-size: 22px;
+}
+
+.box {
+    margin: auto;
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+.text-head {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.text-body {
+    color: #cbc8c3;
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.try-btn {
+    background: #4CAF50;
+    /* Green */
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-weight: bold;
+}
+
+.heading {
+    color: #cbc8c3;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.w3-color {
+    color: crimson;
+    padding-left: 5px;
+    padding-right: 4px;
+    background-color: #cbc8c3;
+}
+
+p {
+    color: #cbc8c3;
+}
+
+.w3-text-list {
+    color: #cbc8c3;
+}
+
+.code {
+    background-color: rgb(21, 32, 43);
+    padding: 1vh 2vw;
+    margin: 2vh 0;
+}
+
+.codeSnippet {
+    background-color: #38444d;
+    padding: 2vh 4vw;
+    border-radius: 0.5rem;
+    line-height: 0.7rem;
+}
+
+.codeSnippet h2 {
+    font-weight: normal;
+    padding-bottom: 2vh;
+}
+
+#css-property {
+    color: #c5a5c5;
+}
+
+#css-color {
+    color: #88c999;
+}
+
+.css-head {
+    color: #ff9999;
+}
+
+.w3-imp {
+    background-color: #ffffcc;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: -32px;
+    margin-right: -32px;
+    padding: 16px 32px;
+}
+
+#w3-imp-note {
+    color: black;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: #cbc8c3;
+}
+
+td {
+    color: black;
+}
+
+tr:nth-child(even) {
+    background-color: #cbc8c3;
+}
+.w3-links:visited{
+    color: #cbc8c3;
+    background-color: transparent;
+}
+.w3-links:hover{
+    color:#4CAF50;
+}
+.w3-links-end:visited{
+    color:black;
+    background-color: transparent;
+}
+.w3-links-end:hover{
+    color:#4CAF50;
+}
