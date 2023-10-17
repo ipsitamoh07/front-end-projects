@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CSS Text</title>
+</head>
+
+<body>
+    <!-- Start of horizontal Navigation Section -->
+    <div class="horizontal-navbar">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">HTML</a></li>
+            <li><a class="active" href="../css/index.html">CSS</a></li>
+            <li><a href="#">About A1</a></li>
+            <li><a href="../about2.html">About A2</a></li>
+        </ul>
+    </div>
+    <!-- End of horizontal Navigation Section -->
+
+    <!-- Start of vertical Navigation Section -->
+    <div class="side-nav">
+        <h2>CSS Tutorial</h2>
+        <a href="#" class="active">CSS HOME</a>
+        <a href="#">CSS Introduction</a>
+        <a href="#">CSS Syntax</a>
+        <a href="#">CSS Selectors</a>
+        <a href="#">CSS How To</a>
+        <a href="#">CSS Comments</a>
+        <a href="#">CSS Colors</a>
+        <a href="#">CSS Backgrounds</a>
+        <a href="#">CSS Borders</a>
+        <a href="#">CSS Margins</a>
+        <a href="#">CSS Padding</a>
+        <a href="#">CSS Height/Width</a>
+        <a href="#">CSS Box Model</a>
+        <a href="#">CSS Outline</a>
+        <a href="csstext.html">CSS Text</a>
+        <a href="#">CSS Fonts</a>
+        <a href="#">CSS Icons</a>
+        <a href="#">CSS Link</a>
+        <a href="#">CSS List</a>
+        <a href="#">CSS Table</a>
+        <a href="#">CSS Display</a>
+        <a href="#">CSS Max-Width</a>
+        <a href="#">CSS positioning</a>
+        <a href="#">CSS z-index</a>
+        <a href="#">CSS Overflow</a>
+        <a href="#">CSS Flaot</a>
+        <a href="#">CSS inline-block</a>
+        <a href="#">CSS Aling</a>
+        <a href="#">CSS Forms</a>
+        <a href="#">CSS Dropdown</a>
+        <a href="#">CSS Attr Selectors</a>
+        <a href="#">CSS Units</a>
+        <a href="#">CSS Psuedo class</a>
+        <br><br><br><br>
+    </div>
+    <!-- End of vertical Navigation Section -->
+
+    <!-- Content Section -->
+    <div class="main-section">
+        <div class="head">
+            <h1>CSS Text</h1>
+        </div>
+        <div class="btn">
+            <button>
+                &lt; Previous</button>
+            <button>Next &gt;</button>
+        </div>
+        <hr>
+        <div class="text">
+            <p>CSS has a lot of properties for formatting text.</p>
+        </div>
+        <hr>
+        <div class="box">
+            <h1 class="text-head">text formatting</h1>
+            <p class="text-body">This text is styled with some of the text formatting properties. The heading uses the
+                text-align, text-transform, and color properties.
+                The paragraph is indented, aligned, and the space between characters is specified.
+                The underline is removed from this colored <a style="text-decoration:none;color:#008CBA;"
+                    target="_blank" href="tryit.asp?filename=trycss_text">
+                    "Try it Yourself"</a> link.</p>
+        </div>
+        <br>
+        <button class="try-btn">Try It Yourself &gt;&gt;</button>
+        <hr>
+        <h2 class="heading">Text Color</h2>
+        <p>The <span class="w3-color">color</span> property is used to set the color of the text. The color is specified
+            by:</p>
+        <ul class="w3-text-list">
+            <li>a color name - like "red"</li>
+            <li>a HEX value - like "#ff0000"</li>
+            <li>an RGB value - like "rgb(255,0,0)"</li>
+        </ul>
+        <p>Look at <a href="https://www.w3schools.com/cssref/css_colors_legal.php" class="w3-links">CSS Color Values</a> for a complete list of possible color
+            values.</p>
+        <p>The default text color for a page is defined in the body selector.</p>
+        <!--First example to run a program-->
+        <div class="codeSnippet">
+            <h2 class="heading">Example</h2>
+            <div class="code">
+                <p class="css-head">body {</p>
+                <p style="padding: 0 2rem;"><span id="css-property">color: </span><span id="css-color">blue;</span></p>
+                <p class="css-head">}</p>
+                <p class="css-head">h1 {</p>
+                <p style="padding: 0 2rem;"><span id="css-property">color: </span><span id="css-color">green;</span></p>
+                <p class="css-head">}</p>
+
+            </div>
+            <button class="try-btn">Try It Yourself &gt;&gt;</button>
+        </div>
+        <hr>
+        <h2 class="heading">Text Color and Background Color</h2>
+        <p>In this example, we define both the <span class="w3-color">background-color</span> property and the <span
+                class="w3-color">color</span> property:</p>
+        <!--second example to run a program-->
+        <div class="codeSnippet">
+            <h2 class="heading">Example</h2>
+            <div class="code">
+                <p class="css-head">body {</p>
+                <p style="padding: 0 2rem;"><span id="css-property">background-color:</span><span id="css-color">
+                        lightgrey;</span></p>
+                <p style="padding: 0 2rem;">color: blue;</p>
+                <p class="css-head">}</p>
+                <p class="css-head">h1 {</p>
+                <p style="padding: 0 2rem;"><span id="css-property">background-color:</span><span id="css-color">
+                        black;</span></p>
+                <p style="padding: 0 2rem;"><span id="css-property">color:</span><span id="css-color"> white;</span></p>
+                <p class="css-head">}</p>
+                <p class="css-head">div {</p>
+                <p style="padding: 0 2rem;"><span id="css-property">background-color:</span><span id="css-color">
+                        blue;</span></p>
+                <p style="padding: 0 2rem;"><span id="css-property">color:</span><span id="css-color"> white;</span></p>
+                <p class="css-head">}</p>
+            </div>
+            <button class="try-btn">Try It Yourself &gt;&gt;</button>
+        </div>
+        <div class="w3-imp">
+            <p id="w3-imp-note">
+                <strong>Important:</strong> High contrast is very important for people with vision problems. So, always
+                ensure that the contrast between the text color
+                and the background color (or background image) is good!
+            </p>
+        </div>
+        <hr>
+        <h2 class="heading">The CSS Text Color Property</h2>
+        <table class="w3-text-table">
+            <tbody>
+                <tr>
+                    <th style="width: 30%;">Property</th>
+                    <th>Description</th>
+                </tr>
+                <td><a href="https://www.w3schools.com/cssref/pr_text_color.php" class="w3-links-end">color</a></td>
+                <td>Specifies the color of text</td>
+            </tbody>
+        </table>
+        <br>
+        <div class="btn">
+            <button>
+                &lt; Previous</button>
+                <button id="track-btn">Login to track progress</button>
+            <button>Next &gt;</button>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Content Section Ends -->
+</body>
+
+</html>
